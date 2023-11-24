@@ -1,139 +1,139 @@
 [ 
   {
     "course": "Git e GitHub: repositório, commit e versões",
-    "image": "src/assets/certificates/1.png",
+    "image": "public/assets/certificates/1.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/4b15b4e7-e1b1-4ac6-9b1e-b35bb1aa0a0a?lang=pt_BR",
     "id": 1
   },
   {
     "course": "Git e GitHub: controle e compartilhe seu código",
-    "image": "src/assets/certificates/2.png",
+    "image": "public/assets/certificates/2.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/de3fe08f-1637-43ae-9059-f031c667e004?lang=pt_BR",
     "id": 2
   },
   {
     "course": "JavaScript: trabalhando com threads para requisições simultâneas",
-    "image": "src/assets/certificates/3.png",
+    "image": "public/assets/certificates/3.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/37dd9503-d066-4639-ba41-0b0c281ceed7?lang=pt_BR",
     "id": 3
   },
   {
     "course": "JavaScript: métodos de array",
-    "image": "src/assets/certificates/4.png",
+    "image": "public/assets/certificates/4.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/818eb22b-395d-4b4e-9a48-84d32be4c559?lang=pt_BR",
     "id": 4
   },
   {
     "course": "TypeScript parte 2: avançando na linguagem",
-    "image": "src/assets/certificates/5.png",
+    "image": "public/assets/certificates/5.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/0f8d1050-b8d3-46f2-a08d-66c79e10d20f?lang=pt_BR",
     "id": 5
   },
   {
     "course": "Tailwind CSS: estilizando a sua página com classes utilitárias",
-    "image": "src/assets/certificates/6.png",
+    "image": "public/assets/certificates/6.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/b36365f8-878e-4bf2-b8d9-df3a8a69f345?lang=pt_BR",
     "id": 6
   },
   {
     "course": "SASS: CSS sintaticamente espetacular",
-    "image": "src/assets/certificates/7.png",
+    "image": "public/assets/certificates/7.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/a528a24a-5e1b-41bc-ace8-33b52dfffacc?lang=pt_BR",
     "id": 7
   },
   {
     "course": "React: gerenciamento de estados globais com ContextAPI",
-    "image": "src/assets/certificates/8.png",
+    "image": "public/assets/certificates/8.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/8d7bb5f7-3d15-4d24-b9d8-82c9d39473a8?lang=pt_BR",
     "id": 8
   },
   {
     "course": "React: migrando para TypeScript",
-    "image": "src/assets/certificates/9.png",
+    "image": "public/assets/certificates/9.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/53042ad6-e4fc-4584-8c2f-73e2b1a0959e?lang=pt_BR",
     "id": 9
   },
   {
     "course": "React: estilize componentes com Styled Components e manipule arquivos estáticos",
-    "image": "src/assets/certificates/10.png",
+    "image": "public/assets/certificates/10.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/a87398e8-9d31-4e80-9d41-877a24f6a4e0?lang=pt_BR",
     "id": 10
   },
   {
     "course": "React: desenvolvendo em React Router com JavaScript",
-    "image": "src/assets/certificates/11.png",
+    "image": "public/assets/certificates/11.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/679e3a12-9479-4a8b-b67f-25388bddecda?lang=pt_BR",
     "id": 11
   },
   {
     "course": "React: como os componentes funcionam",
-    "image": "src/assets/certificates/12.png",
+    "image": "public/assets/certificates/12.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/4e19eb88-c34a-43aa-854f-57dc328da6c8?lang=pt_BR",
     "id": 12
   },
   {
     "course": "React com JavaScript: lidando com arquivos estáticos",
-    "image": "src/assets/certificates/13.png",
+    "image": "public/assets/certificates/13.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/277bcab6-305f-40be-9aef-e66ce4ec09bb?lang=pt_BR",
     "id": 13
   },
   {
     "course": "JavaScript: validações e reconhecimento de voz",
-    "image": "src/assets/certificates/14.png",
+    "image": "public/assets/certificates/14.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/eafac0c9-af45-4b87-96f2-901d194bced6?lang=pt_BR",
     "id": 14
   },
   {
     "course": "JavaScript: manipulando objetos",
-    "image": "src/assets/certificates/15.png",
+    "image": "public/assets/certificates/15.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/415133dc-d745-4b75-af0f-b3d6d509889d?lang=pt_BR",
     "id": 15
   },
   {
     "course": "JavaScript: manipulando o DOM",
-    "image": "src/assets/certificates/6.png",
+    "image": "public/assets/certificates/6.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/aef45171-6c21-4d77-9688-362330e3fccb?lang=pt_BR",
     "id": 16
   },
   {
     "course": "JavaScript: criando requisições",
-    "image": "src/assets/certificates/17.png",
+    "image": "public/assets/certificates/17.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/96db2b36-2610-45d9-85cb-3dcbd14d9e48?lang=pt_BR",
     "id": 17
   },
   {
     "course": "JavaScript: consumindo e tratando dados de uma API",
-    "image": "src/assets/certificates/18.png",
+    "image": "public/assets/certificates/18.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/24db3f06-a00a-4601-abe0-98acd57dc224?lang=pt_BR",
     "id": 18
   },
   {
     "course": "JavaScript: classes e heranças no desenvolvimento de aplicações com orientação a objetos",
-    "image": "src/assets/certificates/19.png",
+    "image": "public/assets/certificates/19.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/4308be28-c5b2-48d9-81c0-b027abadbc6f?lang=pt_BR",
     "id": 19
   },
   {
     "course": "JavaScript na Web: armazenando dados no navegador",
-    "image": "src/assets/certificates/20.png",
+    "image": "public/assets/certificates/20.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/cb123f59-1c1d-4946-8bc1-2250e3abea95?lang=pt_BR",
     "id": 20
   },
   {
     "course": "HTTP: entendendo a web por baixo dos panos",
-    "image": "src/assets/certificates/21.png",
+    "image": "public/assets/certificates/21.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/98bbed64-bd7e-4534-9d14-d933592aca48?lang=pt_BR",
     "id": 21
   },
   {
     "course": "HTML e CSS: responsividade com mobile-first",
-    "image": "src/assets/certificates/22.png",
+    "image": "public/assets/certificates/22.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/9437f26f-11f7-4a1d-8a0a-25bda4e3be6b?lang=pt_BR",
     "id": 22
   },
   {
     "course": "TypeScript parte 1: evoluindo seu JavaScript",
-    "image": "src/assets/certificates/23.png",
+    "image": "public/assets/certificates/23.png",
     "pathUrl": "https://cursos.alura.com.br/certificate/72733ea4-c410-4c85-a405-857eed2e4bac?lang=pt_BR",
     "id": 23
   }

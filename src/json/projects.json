@@ -1,56 +1,56 @@
 [
   {
     "name": "E-commerce",
-    "image": "src/assets/projects/ecommerce.png",
+    "image": "public/assets/projects/ecommerce.png",
     "pathUrl": "https://e-commerce-ruddy-eight-27.vercel.app",
     "pathCode": "https://github.com/gabrielvieira-web/E-commerce",
     "id": 1
   },
   {
     "name": "Calculadora idade",
-    "image": "src/assets/projects/calculadora-idade.png",
+    "image": "public/assets/projects/calculadora-idade.png",
     "pathUrl": "https://calculadora-idade-hazel.vercel.app",
     "pathCode": "https://github.com/gabrielvieira-web/calculadora-idade",
     "id": 2
   }, 
   {
     "name": "Worship music",
-    "image": "src/assets/projects/worship-music.png",
+    "image": "public/assets/projects/worship-music.png",
     "pathUrl": "https://worship-music.vercel.app",
     "pathCode": "https://github.com/gabrielvieira-web/worship-music",
     "id": 3
   },
   {
     "name": "Pais APIRest",
-    "image": "src/assets/projects/pais-rest.png",
+    "image": "public/assets/projects/pais-rest.png",
     "pathUrl": "https://pais-api-rest.vercel.app/",
     "pathCode": "https://github.com/gabrielvieira-web/pais-api-rest",
     "id": 4
   },
   {
     "name": "Calculadora",
-    "image": "src/assets/projects/calculadora.png",
+    "image": "public/assets/projects/calculadora.png",
     "pathUrl": "https://calculadora-five-liard.vercel.app/",
     "pathCode": "https://github.com/gabrielvieira-web/calculadora",
     "id": 5
   },
   {
     "name": "Pagina blog",
-    "image": "src/assets/projects/pagina-blog.png",
+    "image": "public/assets/projects/pagina-blog.png",
     "pathUrl": "https://pagina-blog.vercel.app/",
     "pathCode": "https://github.com/gabrielvieira-web/pagina-blog",
     "id": 6
   },
   {
     "name": "bytebank",
-    "image": "src/assets/projects/bytebank.png",
+    "image": "public/assets/projects/bytebank.png",
     "pathUrl": "https://bytebank-ecru.vercel.app/",
     "pathCode": "https://github.com/gabrielvieira-web/bytebank",
     "id": 7
   },
   {
     "name": "Número secreto",
-    "image": "src/assets/projects/numero-secreto.png",
+    "image": "public/assets/projects/numero-secreto.png",
     "pathUrl": "https://numero-secreto-theta-jade.vercel.app/",
     "pathCode": "https://github.com/gabrielvieira-web/numero-secreto",
     "id": 8
