@@ -1,0 +1,29 @@
+.container {
+  padding: 2rem 10rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  h2 {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+
+  .menuActive {
+    filter: blur(2px);
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+}

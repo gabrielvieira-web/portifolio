@@ -1,0 +1,36 @@
+.container {
+  background: linear-gradient(210deg, var(--color-background-tertiary) 30%, var(--color-background-tertiary-hover));
+  color: var(--color-highlight);
+  padding: 1rem;
+  margin-top: 4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 25px 20px -20px;
+  transform: translateY(0px);
+  transition: ease .2s;
+  animation: float 5s ease-in-out infinite;
+}
+
+.container:hover {
+  background: linear-gradient(110deg, var(--color-background-tertiary) 30%, var(--color-background-tertiary-hover));
+  border-radius: .8rem .2rem;
+}
+
+.container:active {
+  transition: none;
+  color: var(--color-white);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("./vila-do-chaves.png") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.containerDescription {
+  position: absolute;
+  text-align: center;
+  width: 400px;
+}
+
+.containerDescription span {
+  font-size: 6rem;
+  font-weight: 800;
+  background-image: linear-gradient(to right, #5BA405 50%, #329900);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.containerDescription p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.containerDescription p:nth-child(2) {
+  margin-top: 1rem;
+}
+
+.containerDescription p:nth-child(3) {
+  line-height: 2.3rem;
+  margin: 1rem 0 4rem 0;
+}
+
+.containerDescription button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-image: linear-gradient(to right, #5BA405 50%, #329900);
+  color: var(--color-white);
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.containerDescription button:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to right, #4f9104 50%, #2a7c00);
+}
+
+.containerDescription button:active {
+  transition: none;
+  background-image: linear-gradient(to right , #7F3E0A, #663207);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    background: url("./vila-do-chaves-mobile.png") no-repeat right bottom;
+  }
+}

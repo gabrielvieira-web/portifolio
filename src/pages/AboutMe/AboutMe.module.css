@@ -1,0 +1,49 @@
+/* SEÇÃO SOBRE MIM */
+
+.aboutMe, .aboutMeHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.aboutMe h2, .aboutMeHome h2 {
+  margin-bottom: 3rem;
+}
+
+.containerDescription p {
+  line-height: 1.9rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+/* ESTILOS PARA QUANDO O URL ESTIVER EM ("/", HOME ) */
+
+.aboutMeHome .containerDescription {
+  width: 75%;
+}
+
+.aboutMeHome .containerDescription p {
+  margin-bottom: 0;
+}
+
+.aboutMeHome .containerDescription p:nth-child(1n + 2) {
+  display: none;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .aboutMe, .aboutMeHome {
+    align-items: center;
+  }
+
+  .aboutMeHome .containerDescription {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMeHome .containerDescription {
+    width: 100%;
+  }
+}
+

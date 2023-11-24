@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .list {
+    justify-content: start;
+    gap: 4rem;
+  }
+}

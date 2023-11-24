@@ -1,0 +1,71 @@
+.container {
+  background: url("src/assets/banners/bannerHome.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding: 1rem 2rem;
+}
+
+.container div {
+  width: auto;
+  overflow-x: hidden;
+}
+
+.container h1 {
+  position: relative;
+  color: var(--color-white);
+  border-right: 2px solid var(--color-background-tertiary);
+  font-weight: 800;
+  font-size: 4rem;
+  white-space: nowrap;
+  overflow-x: hidden;
+  width: 100%;
+  animation: typing 3.5s steps(35) 700ms, blinking 1.2s infinite;
+}
+
+.container h1 span {
+  color: var(--color-background-tertiary);
+}
+
+@keyframes typing {
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    border-right-color: transparent;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container h1{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    background-position: 55%;;
+  }
+
+  .menuActive {
+    filter: blur(2px);
+  }
+
+  .container h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    text-align: center;
+    border-right: none;
+    animation: none;
+  }
+}

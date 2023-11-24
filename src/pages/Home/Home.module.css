@@ -1,0 +1,13 @@
+/* SEÇÃO TECNOLOGIAS */
+
+.technologies {
+  background-color: var(--color-background-secondary);
+  border-radius: 10px;
+  padding: 2.5rem 0;
+  margin-bottom: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.123) 0px 20px 30px;
+}
+
+.technologies h2 {
+  margin-bottom: 3rem;
+}
