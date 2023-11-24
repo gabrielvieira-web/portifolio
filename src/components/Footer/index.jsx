@@ -2,8 +2,8 @@ import styles from './Footer.module.css';
 
 import whatsapp from 'assets/social/whatsapp.svg';
 import linkedin from 'assets/social/linkedin.svg';
-import instagram from 'assets/social/instagram.svg';
 import githubWhite from 'assets/social/github-white.svg';
+import instagram from 'assets/social/instagram-logo.svg';
 import copyhight from './copyhight.svg';
 
 import avatar from 'assets/avatar.jpeg';
