@@ -153,9 +153,10 @@ export const SocialList = () => {
             </a>
           </li>
           <li>
-            <a 
-              target="__blank" 
-              href="https://wa.me/5511952334908?text=Ol%C3%A1+Gabriel%2C+vim+pelo+seu+portf%C3%B3lio"
+            <a
+              href='public/curriculum.pdf'
+              download
+              type='application/pdf'
             >
               <img src={curriculum} alt="icone de curriculo" />
             </a>
