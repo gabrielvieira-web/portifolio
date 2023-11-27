@@ -1,5 +1,5 @@
 .container {
-  background: url("public/assets/banners/bannerHome.png") no-repeat center;
+  background: url("src/assets/banners/bannerHome.png") no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;

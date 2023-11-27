@@ -1,11 +1,20 @@
 import styles from './CertificateCards.module.css';
-import { useLocation } from 'react-router-dom';
 
-import certificates from 'json/certificates.json';
+import { useLocation } from 'react-router-dom';
 import { Card } from './Card';
+import { useEffect, useState } from 'react';
 
 export const CertificateCards = () => {
+  const [ certificates, setCertificates ] = useState([])
   const location = useLocation().pathname;
+
+  useEffect(() => {
+    fetch("https://my-json-server.typicode.com/gabrielvieira-web/portifolio-api/certificates")
+      .then(response => response.json())
+      .then(data => 
+        setCertificates(data)  
+      )
+  }, [])
 
   return (
     <>

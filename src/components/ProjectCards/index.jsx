@@ -1,10 +1,21 @@
-import { useLocation } from 'react-router-dom';
 import styles from './ProjectCards.module.css';
-import projects from 'json/projects.json'
+
 import { Card } from './Card';
 
+import { useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+
 export const ProjectCard = () => {
+  const [ projects, setProjects ] = useState([]);
   const location = useLocation().pathname;
+
+  useEffect(() => {
+    fetch("https://my-json-server.typicode.com/gabrielvieira-web/portifolio-api/projects")
+      .then(response => response.json())
+      .then(data => 
+        setProjects(data)
+      )
+  }, [])
 
   return (
     <>
