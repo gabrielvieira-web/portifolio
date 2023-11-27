@@ -6,6 +6,7 @@ import curriculum from './curriculum.svg';
 import iconArrow from './arrowup.svg';
 import styled from 'styled-components';
 import { useState } from 'react';
+import curriculumPdf from '../../../public/curriculum.pdf';
 
 const DivStylized = styled.div`
   position: absolute;
@@ -154,8 +155,8 @@ export const SocialList = () => {
           </li>
           <li>
             <a
-              href='public/curriculum.pdf'
-              download
+              href={curriculumPdf}
+              download={curriculumPdf}
               type='application/pdf'
             >
               <img src={curriculum} alt="icone de curriculo" />
