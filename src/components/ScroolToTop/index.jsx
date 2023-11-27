@@ -12,7 +12,7 @@ export const ScrollToTop = () => {
     if(pathname === "/") {
       window.scrollTo(0, 0);
     } else {
-      window.scrollTo(0, 501);
+      window.scrollTo(0, 502);
     }
   }, [pathname]);
 
