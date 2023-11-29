@@ -20,6 +20,7 @@ export const RoutesApp = () => {
             <Route path="projetos" element={<Projects />} />
             <Route path="certificados" element={<Certificates />} />
           </Route>
+          
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </DisplayMenuProvider>

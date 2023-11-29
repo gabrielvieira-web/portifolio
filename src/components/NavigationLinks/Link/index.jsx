@@ -6,6 +6,7 @@ export const Link = ({children, to}) => {
     <NavLink 
       className={({ isActive }) => isActive ? styles.linkActive : styles.link}
       to={to}
+      end
     >
       {children}
     </NavLink>

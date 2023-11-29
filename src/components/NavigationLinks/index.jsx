@@ -10,13 +10,13 @@ export const NavigationLinks = () => {
       <Link to="/">
         Inicio
       </Link>
-      <Link to="sobremim">
+      <Link to="/sobremim">
         Sobre mim
       </Link>
-      <Link to="projetos">
+      <Link to="/projetos">
         Projetos
       </Link>
-      <Link to="certificados">
+      <Link to="/certificados">
         Certificados
       </Link>
     </nav>
