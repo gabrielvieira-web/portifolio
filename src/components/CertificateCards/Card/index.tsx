@@ -1,6 +1,8 @@
 import styles from "./Card.module.css";
+import { MyCertificateProps } from "shareds/interfaces/ICertificate";
 
-export const Card = ({ certificate }) => {
+
+export const Card = ( {certificate}: {certificate: MyCertificateProps} ) => {
   return (
     <li className={styles.card}>
       <img

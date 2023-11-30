@@ -1,8 +1,9 @@
+import { MyProjectProps } from "shareds/interfaces/IProject";
 import styles from "./Card.module.css";
 import iconChrome from './chrome.svg'
 import iconCode from './code.svg'
 
-export const Card = ({ project }) => {
+export const Card = ( { project }: { project: MyProjectProps } ) => {
   return (
     <li key={project.id} className={styles.card}>
       <img

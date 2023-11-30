@@ -1,5 +1,5 @@
 import { useDisplayMenu } from 'context/displayMenu';
-import styles from './Banner.module.css';
+import styles from "./Banner.module.css";
 
 export const Banner = () => {
   const { menuActive } = useDisplayMenu();

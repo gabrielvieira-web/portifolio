@@ -1,13 +1,22 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
-export const DisplayMenuContext = createContext();
+interface MyContextProps {
+  menuActive: boolean
+  useMenuActive: React.Dispatch<React.SetStateAction<boolean>>
+  redirectByButton: boolean
+  useRedirectByButton: React.Dispatch<React.SetStateAction<boolean>>
+}
 
-export const DisplayMenuProvider = ({ children }) => {
+export const DisplayMenuContext = createContext<MyContextProps>({} as MyContextProps);
+
+export const DisplayMenuProvider = ({children}: {children: React.ReactNode}) => {
   const [ menuActive, useMenuActive ] = useState(false);
   const [ redirectByButton, useRedirectByButton ] = useState(false);
   
   return (
-    <DisplayMenuContext.Provider value={{ menuActive, useMenuActive, redirectByButton, useRedirectByButton }}>
+    <DisplayMenuContext.Provider value={{
+      menuActive, useMenuActive, redirectByButton, useRedirectByButton
+    }}>
       {children}
     </DisplayMenuContext.Provider>
   )
