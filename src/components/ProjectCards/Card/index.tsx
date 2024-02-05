@@ -1,4 +1,4 @@
-import { MyProjectProps } from "shareds/interfaces/IProject";
+import { MyProjectProps } from "interfaces/IProject";
 import styles from "./Card.module.css";
 import iconChrome from './chrome.svg'
 import iconCode from './code.svg'

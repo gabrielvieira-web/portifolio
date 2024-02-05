@@ -1,5 +1,5 @@
 .container {
-  background: url("../../assets/banners/bannerHome.png") no-repeat center 70%;
+  background: url("/public/assets/banners/bannerHome.png") no-repeat center 70%;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    background: url("../../assets/banners/bannerMobile.png") no-repeat;
+    background: url("/public/assets/banners/bannerMobile.png") no-repeat;
     background-size: cover;
     background-position-y:60%;
   }

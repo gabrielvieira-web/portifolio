@@ -1,5 +1,5 @@
 import styles from "./Card.module.css";
-import { MyCertificateProps } from "shareds/interfaces/ICertificate";
+import { MyCertificateProps } from "interfaces/ICertificate";
 
 
 export const Card = ( {certificate}: {certificate: MyCertificateProps} ) => {

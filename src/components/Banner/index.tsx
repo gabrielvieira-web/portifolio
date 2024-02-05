@@ -1,8 +1,9 @@
-import { useDisplayMenu } from 'context/displayMenu';
+import { useRecoilValue } from "recoil";
 import styles from "./Banner.module.css";
+import { menuActiveState } from "state/atom";
 
 export const Banner = () => {
-  const { menuActive } = useDisplayMenu();
+  const menuActive = useRecoilValue(menuActiveState);
 
   return (
     <div 

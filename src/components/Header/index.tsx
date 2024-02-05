@@ -1,10 +1,14 @@
 import styles from './Header.module.css';
 import avatar from 'assets/avatar.jpeg';
 import { NavigationLinks } from 'components/NavigationLinks';
-import { useDisplayMenu } from 'context/displayMenu';
+import { useRecoilValue, useSetRecoilState } from 'recoil';
+import { menuActiveState } from 'state/atom';
 
 export const Header = () => {
-  const { displayMenu, menuActive } = useDisplayMenu();
+  const menuActive = useRecoilValue(menuActiveState);
+  const displayMenu = useSetRecoilState(menuActiveState);
+
+  console.log(menuActive)
 
   return (
     <header className={styles.header}>
@@ -12,7 +16,7 @@ export const Header = () => {
 
         <button
           className={styles.button}
-          onClick={() => displayMenu()}
+          onClick={() => displayMenu(valorAtual => !valorAtual)}
         >
           <span 
             className={

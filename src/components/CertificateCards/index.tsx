@@ -1,7 +1,7 @@
 import styles from './CertificateCards.module.css';
 import certificates from './certificates.json';
 import { useLocation } from 'react-router-dom';
-import { MyCertificateProps } from 'shareds/interfaces/ICertificate';
+import { MyCertificateProps } from 'interfaces/ICertificate';
 import { Card } from './Card';
 
 

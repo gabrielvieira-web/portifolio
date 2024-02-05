@@ -6,10 +6,11 @@ import { Footer } from "components/Footer"
 import { Banner } from 'components/Banner';
 
 import { SocialList } from 'components/SocialList';
-import { useDisplayMenu } from 'context/displayMenu';
+import { useRecoilValue } from 'recoil';
+import { menuActiveState } from 'state/atom';
 
 export const PageTemplate = () => {
-  const { menuActive } = useDisplayMenu();
+  const menuActive = useRecoilValue(menuActiveState)
 
   return (
     <>

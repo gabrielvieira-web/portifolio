@@ -1,9 +1,10 @@
 import styles from './NavigationLinks.module.css';
 import { Link } from './Link';
-import { useDisplayMenu } from 'context/displayMenu';
+import { useRecoilValue } from 'recoil';
+import { menuActiveState } from 'state/atom';
 
 export const NavigationLinks = () => {
-  const { menuActive } = useDisplayMenu();
+  const menuActive = useRecoilValue(menuActiveState)
 
   return (
     <nav className={!menuActive ? styles.container : `${styles.container} ${styles.menuActive}`}>

@@ -3,7 +3,7 @@ import styles from './ProjectCards.module.css';
 import { Card } from './Card';
 import projects from './projects.json';
 import { useLocation } from 'react-router-dom';
-import { MyProjectProps } from 'shareds/interfaces/IProject';
+import { MyProjectProps } from 'interfaces/IProject';
 
 export const ProjectCard = () => {
   const location = useLocation().pathname;

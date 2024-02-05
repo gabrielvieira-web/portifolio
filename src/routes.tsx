@@ -5,13 +5,13 @@ import { AboutMe } from "./pages/AboutMe";
 import { Projects } from "./pages/Projects";
 import { Certificates } from "./pages/Certificates";
 import { ScrollToTop } from "components/ScroolToTop";
-import { DisplayMenuProvider } from "context/displayMenu";
 import { PageNotFound } from "pages/PageNotFound";
+import { RecoilRoot } from "recoil";
 
 export const RoutesApp = () => {
   return (
     <BrowserRouter>
-      <DisplayMenuProvider>
+      <RecoilRoot>
       <ScrollToTop />
         <Routes>
           <Route path="/" element={<PageTemplate />}>
@@ -20,10 +20,10 @@ export const RoutesApp = () => {
             <Route path="projetos" element={<Projects />} />
             <Route path="certificados" element={<Certificates />} />
           </Route>
-          
+  
           <Route path="*" element={<PageNotFound />} />
         </Routes>
-      </DisplayMenuProvider>
+      </RecoilRoot>    
     </BrowserRouter>
   )
 }

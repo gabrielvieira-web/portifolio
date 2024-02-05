@@ -61,7 +61,7 @@ export const SocialList = () => {
           <li>
             <a
               href={curriculumPdf}
-              download={curriculumPdf}
+              download
               type='application/pdf'
             >
               <img src={curriculum} alt="icone de curriculo" />

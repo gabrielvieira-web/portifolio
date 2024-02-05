@@ -1,10 +1,8 @@
 import styles from './NavigationButton.module.css';
 import { Link, useLocation } from 'react-router-dom';
-import { useDisplayMenu } from 'context/displayMenu';
 
 export const NavigationButton = ( { children, to }: {children: string, to: string} ) => {
   const location = useLocation().pathname;
-  const { activateRedirectionStateByButton } = useDisplayMenu();
 
   return (
     <Link 
@@ -15,7 +13,6 @@ export const NavigationButton = ( { children, to }: {children: string, to: strin
         ? { display: "none" } 
         : { display: 'inline-block' } 
       }
-      onClick={() => activateRedirectionStateByButton()}
     >
       {children}
     </Link>
