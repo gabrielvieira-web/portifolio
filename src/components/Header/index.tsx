@@ -8,8 +8,6 @@ export const Header = () => {
   const menuActive = useRecoilValue(menuActiveState);
   const displayMenu = useSetRecoilState(menuActiveState);
 
-  console.log(menuActive)
-
   return (
     <header className={styles.header}>
         <img src={avatar} alt="logo avatar do desenvolvedor Gabriel Vieira" className={styles.avatar}/>
