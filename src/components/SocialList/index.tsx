@@ -10,17 +10,13 @@ import iconArrow from './arrowup.svg';
 import curriculumPdf from 'assets/curriculum.pdf';
 
 export const SocialList = () => {
-  const [ isActive, useIsActive ] = useState(false);
-  
-  const displayItens = () => {
-    useIsActive(!isActive)
-  }
+  const [ isActive, setIsActive ] = useState(false);
 
   return (
     <DivStylized $listActive={isActive}>
       <div>
         <span
-          onClick={() => displayItens()}
+          onClick={() => setIsActive(!isActive)}
         >
           <img src={iconArrow} alt="icone de seta" />
         </span>

@@ -14,7 +14,7 @@ export const Header = () => {
 
         <button
           className={styles.button}
-          onClick={() => displayMenu(valorAtual => !valorAtual)}
+          onClick={() => displayMenu(currentValue => !currentValue)}
         >
           <span 
             className={
